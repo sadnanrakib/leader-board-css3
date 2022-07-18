@@ -1,0 +1,121 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common styles and utilitis */
+body{
+     font-family: 'Poppins', sans-serif;
+     background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+    
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+
+/* Top player style */
+.Top-players{
+    margin-bottom: 30px;
+}
+.Section-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+     grid-template-columns: repeat(3,1fr);
+     /* grid-template-columns: 1fr 1fr 1fr; */
+     grid-row-gap: 30px;
+     
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+}
+.player img{
+width: 56px;
+height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/* -------------
+top blogs styles
+--------------- */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+.blog .thumbils img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    color: #562EFF;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+    /* coures style */
+    .courses{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 24px;
+    }
+
+    .course .course-banner img{
+        width: 224px;
+        height: 104px;
+    }
+    .course-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fa-star.filled{
+        color: #FFC014;
+    }
+    .fa-star.empty{
+        color: #AEAEAE;
+    }
+    .fa-star{
+        font-size: 12px
+    }
+    .course-duration{
+        background: #FEE5DF;
+        border-radius: 14.6913px;
+        padding: 0 5px;
+        color: #ED6B4F;
+    }
+    .fa-clock{
+        color: #ED6B4F;
+    }
+    
